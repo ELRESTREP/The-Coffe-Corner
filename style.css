@@ -1,4 +1,14 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+}
 
+main {
+    flex: 1; 
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -64,7 +74,6 @@ body {
 .logo img {
     width: 150px;
 }
-
 button {
     background-color: #ffffff;
     border: 1px solid rgb(209, 213, 219);
@@ -85,8 +94,7 @@ button {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
   }
-
-  button:hover {
+button:hover {
     background-color: #f9fafb;
   }
 
@@ -109,19 +117,30 @@ section {
     margin: 20px auto;
 }
 footer {
-    width: 100%;
-    height: 80px;
     background-color: #5c3d2e;
-    border-top: 35px solid white;
-    text-align: center;
-}
-footer a {
     color: white;
-}
-footer div {
-    margin-top: 32px;
+    padding: 10px 15px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    border-top: 7px solid white;
+    font-size: 0.8rem;
 }
 
-#username{
-    margin-right: 5px;
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-left img {
+    width: 50px; 
+    height: auto;
+    margin-bottom: 5px; 
+}
+
+.footer-right p {
+    margin: 0;
+    font-size: 0.9rem; 
 }
