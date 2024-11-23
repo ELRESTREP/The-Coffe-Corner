@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="/registerstyle.css">
+    <link rel="stylesheet" href="./registerstyle.css">
     
 </head>
 <body>
@@ -12,7 +12,7 @@
 <div class="login-container">
     <h2>Registro</h2>
 
-    <form action="" method="POST">
+    <form id="registerForm">
         <div class="form-group">
             <label for="name">Nombre/s:</label>
             <input type="text" id="name" name="name" required>
@@ -42,8 +42,10 @@
         <input type="submit" value="Ingresar">
     </form>
 
-    <a href="/login_register/login.html" class="btn-register">Inicia Sesión</a>
+    <a href="/login_register/login.html" class="btn-register">Iniciar Sesión</a>
 </div>
 
 </body>
+<script src="./register.js"></script>
+
 </html>
