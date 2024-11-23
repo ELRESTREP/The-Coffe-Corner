@@ -17,7 +17,9 @@ const password = localStorage.getItem('password')
  if(formPassword !== password){
    return alert('la contraseña es incorrecta')
  }
-return alert('usuario correcto')
+
+ localStorage.setItem('islogged','true')
+ window.location.href='../index.html'
 
 });
 
