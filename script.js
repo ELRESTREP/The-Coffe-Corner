@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.removeItem('islogged');
         localStorage.removeItem('name');
         localStorage.removeItem('lastName'); 
+        localStorage.removeItem('gender'); 
+        localStorage.removeItem('email'); 
+        localStorage.removeItem('password'); 
         location.reload(); 
     });
 });
